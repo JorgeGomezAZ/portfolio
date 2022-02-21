@@ -1,0 +1,89 @@
+.a{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.a-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.a-right{
+    flex: 1;
+}
+
+.a-card{
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.a-card.bg{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: red;
+}
+
+.a-img{
+    height: 100%;
+    width: 100%;
+    object-fit:scale-down;
+    background-color: #aaa;
+}
+.a-title{
+    font-weight: 400;
+}
+.a-sub{
+    margin: 20px 0px;
+}
+.a-desc{
+    font-weight: 300;
+}
+.a-school{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.a-school-img{
+    height: 120px;
+    margin-right: 0;
+}
+.a-school-text{
+    margin-left: 10px;
+    width: 70%;
+}
+.a-school-title{
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:480px){
+    .a{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+        height: 55vh;
+    }
+    .a-left{
+        display: none;
+    }
+    /* .a-right{
+        
+    } */
+    .a-card{
+        display: none;
+    }
+    .a-school-img{
+        height: 100px;
+        margin-right: 0;
+    }
+}

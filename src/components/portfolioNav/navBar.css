@@ -1,0 +1,26 @@
+nav{
+    background-color: #555;
+    height: 45px;
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+    display: flex;
+}
+
+.active{
+    visibility: visible;
+    transition: all 0.4s;
+}
+
+.hidden{
+    visibility: hidden;
+    transition: all 0.4s;
+    transform: translateY(-100%);
+}
+
+.n-item{
+    margin: 10px 10px   ;
+    cursor: pointer;
+}

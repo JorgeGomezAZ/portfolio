@@ -1,0 +1,22 @@
+.t{
+    display: inline;
+    width: 90vw;
+    height: 100vh;
+    padding-left: 100px;
+}
+.t-grid{
+    width: 200px;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.t-grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.tetraminos{
+    background-color: blue;
+}
