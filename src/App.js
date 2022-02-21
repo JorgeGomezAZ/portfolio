@@ -6,10 +6,7 @@ function App()
 {
   return (
     <div className='App'>
-      <Routes>
-        <Route path='/' element={<Palabraz />} />
-        <Route path='/palabraz' element={<Palabraz />} />
-      </Routes>
+      <Palabraz />
     </div>
   )
 }
