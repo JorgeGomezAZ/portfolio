@@ -1,22 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b0a15b81.css",
-    "main.js": "/portfolio/static/js/main.d601bdb3.js",
-    "static/media/cvJorgeGomez.pdf": "/portfolio/static/media/cvJorgeGomez.400d90095f1061a0618e.pdf",
-    "static/media/ipn.png": "/portfolio/static/media/ipn.210b8ba6b67f78aa5fe7.png",
-    "static/media/icons.png": "/portfolio/static/media/icons.6290eab2353c5535a4cb.png",
-    "static/media/phoneIcon.png": "/portfolio/static/media/phoneIcon.b84529540c4963244570.png",
-    "static/media/moonIcon.png": "/portfolio/static/media/moonIcon.0928919b0639adb06735.png",
-    "static/media/resumeGomez.pdf": "/portfolio/static/media/resumeGomez.d167e75deaee84e75c58.pdf",
-    "static/media/sun.png": "/portfolio/static/media/sun.4ab5faed5feb35761784.png",
-    "static/media/palabraz.png": "/portfolio/static/media/palabraz.983b8d7ddeeb00c259ae.png",
-    "static/media/mailIcon.png": "/portfolio/static/media/mailIcon.6bd4106a04ab43097fa8.png",
+    "main.css": "/portfolio/static/css/main.c546afa8.css",
+    "main.js": "/portfolio/static/js/main.98b66231.js",
     "index.html": "/portfolio/index.html",
-    "main.b0a15b81.css.map": "/portfolio/static/css/main.b0a15b81.css.map",
-    "main.d601bdb3.js.map": "/portfolio/static/js/main.d601bdb3.js.map"
+    "main.c546afa8.css.map": "/portfolio/static/css/main.c546afa8.css.map",
+    "main.98b66231.js.map": "/portfolio/static/js/main.98b66231.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0a15b81.css",
-    "static/js/main.d601bdb3.js"
+    "static/css/main.c546afa8.css",
+    "static/js/main.98b66231.js"
   ]
 }
